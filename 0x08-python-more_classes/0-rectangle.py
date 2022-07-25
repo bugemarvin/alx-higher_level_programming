@@ -7,4 +7,3 @@ class Rectangle:
 
 
 rectangle = Rectangle()
-
