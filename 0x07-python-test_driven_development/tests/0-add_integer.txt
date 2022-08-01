@@ -1,14 +1,14 @@
-===========================
-How to use 0-add_integer.py
-===========================
+=====================================
+unittests for 0-add_integer.py cases
+=====================================
 
-``add_integer()`` returns the sum of its arguments.
+```add_integer()```
 
 ::
 
 	>>> add_integer = __import__('0-add_integer').add_integer
-        >>> add_integer(100, 4)
-        104
+        >>> add_integer(1, 2)
+        3
  
 For floating-point values the values are first converted to integers.
  
