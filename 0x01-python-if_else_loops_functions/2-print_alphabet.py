@@ -9,9 +9,7 @@ def lower_case():
     class for lower case
     '''
     for alpha in range(97, 123):
-        print(chr(alpha), end=' ')
-
-    print('')
+        print(chr(alpha), end='') 
 
 
 lower_case()
