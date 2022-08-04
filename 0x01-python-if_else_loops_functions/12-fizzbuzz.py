@@ -8,13 +8,13 @@ def fizzbuzz():
     number = 1
     while number < 100:
         if number % 3 == 0:
-            print('Fizz')
+            print('Fizz', end=' ')
         elif number % 5 == 0:
-            print('Buzz')
+            print('Buzz', end=' ')
         elif number % 15 == 0:
-            print('FizzBuzz')
+            print('FizzBuzz', end=' ')
         else:
-            print('{}'.format(number))
+            print('{}'.format(number), end=' ')
 
         number += 1
 
