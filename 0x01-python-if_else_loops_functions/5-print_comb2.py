@@ -10,5 +10,7 @@ You can only use one loop in your code
 
 
 for number in range(100):
-    print('{}{}'.format(int(number / 10), number % 10), end=', '
-          if number < 99 else '\n')
+    if number < 99:
+        print('{}{}'.format(int(number / 10), number % 10), end=', ')
+    else:
+        print('{}{}'.format(int(number / 10), number % 10))
