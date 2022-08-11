@@ -9,8 +9,12 @@ You can only use one loop in your code
 '''
 
 
-for number in range(100):
-    if number < 99:
-        print('{}{}'.format(int(number / 10), number % 10), end=', ')
-    else:
-        print('{}{}'.format(int(number / 10), number % 10))
+def numbers():
+    for number in range(100):
+        if number < 99:
+            print('{}{}'.format(int(number / 10), number % 10), end=', ')
+        else:
+            print('{}{}'.format(int(number / 10), number % 10))
+
+
+numbers()
