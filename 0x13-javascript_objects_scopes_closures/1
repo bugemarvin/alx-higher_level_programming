@@ -1,6 +1,0 @@
-#!/usr/bin/node
-class {
-  constructor(Rectangle) {
-    this.Rectangle = {};
-  }
-}
