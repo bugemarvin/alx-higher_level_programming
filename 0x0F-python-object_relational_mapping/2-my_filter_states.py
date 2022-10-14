@@ -12,7 +12,8 @@ if __name__ == '__main__':
                                      db=sys.argv[3])
     states_query = sys.argv[4]
     db_connected = base_connector.cursor()
-    db_connected.execute("SELECT * FROM states WHERE name LIKE '{}';".format(states_query))
+    db_connected.execute("SELECT * FROM states WHERE name LIKE '{}';"
+                         .format(states_query))
     base_connector = db_connected.fetchall()
     for info in base_connector:
         print(info)
