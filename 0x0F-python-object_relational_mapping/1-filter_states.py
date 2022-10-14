@@ -11,7 +11,7 @@ if __name__ == '__main__':
                                     db=sys.argv[3])
 
     my_database = base_database.cursor()
-    my_database.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%';")
+    my_database.execute("SELECT * FROM states WHERE CAST(name AS BINARY) RLIKE '[N]';")
     base_database = my_database.fetchall()
     for info_row in base_database:
         print("{}".format(info_row))
