@@ -1,3 +1,3 @@
 #!/bin/bash
 # Request method that accepts all the HTTP server URL requests
-curl -sI -d PUT -X OPTIONS $1 -L
+curl -sIHd $1 -L | grep "Allow:" | cut -d " " -f 2-4
