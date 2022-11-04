@@ -25,5 +25,5 @@ if __name__ == '__main__':
             else:
                 print(f"[{json_response.get('id')}]\
                       {json_response.get('name')}")
-        except:
-            print("Not a valid JSON")
+        except not json_response:
+                print("Not a valid JSON")
