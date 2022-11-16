@@ -1,0 +1,6 @@
+#!/usr/bin/node
+const request = require('request');
+request.get(`${process.argv[2]}/Wedge Antilles`, (err, req, res) => {
+	if (err) throw err;
+	for (let i in JSON.parse(res).name) console.log(i);
+});
