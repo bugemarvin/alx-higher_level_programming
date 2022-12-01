@@ -6,7 +6,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     '''
-    finding number of subscribers from reddit.
+    find number of subscribers from reddit.
     No authentication requiered
     constrains:
     not active users, total subscribers for a given subreddit.
