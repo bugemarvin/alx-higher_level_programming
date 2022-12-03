@@ -4,9 +4,8 @@ function that returns available attributes
 and methods of an object.
 '''
 
-def lookup(obj):
-        '''prototype for the object
-        '''
-        pass
 
-lookup()
+def lookup(obj):
+    '''prototype for the object
+    '''
+    return (dir(obj))
