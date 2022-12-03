@@ -12,25 +12,6 @@ unittests for 1-my_list.py cases
 
 Importing module that assumes that it's an integer and append list
 
-::
-
-        >>> my_list = []
-        >>> my_list
-        []
-
-Printing an empty list only
-
-::
-        >>> my_list = [1, 4, 2, 3, 5]
-        >>> my_list.append(-10)
-        >>> my_list
-        [1, 4, 2, 3, 5, -10]
-        >>> sorted(my_list)
-        [-10, 1, 2, 3, 4, 5]
-        >>> my_list
-        [1, 4, 2, 3, 5, -10]
-
-testing for negative numbers
 
 ::
 
@@ -76,3 +57,23 @@ Printing the list in a sorted manner
         [1, 4, 2, 3, 5]
 
 Reprinting the list in a none sorted format
+
+::
+
+        >>> my_list = []
+        >>> my_list
+        []
+
+Printing an empty list only
+
+::
+        >>> my_list = [1, 4, 2, 3, 5]
+        >>> my_list.append(-10)
+        >>> my_list
+        [1, 4, 2, 3, 5, -10]
+        >>> sorted(my_list)
+        [-10, 1, 2, 3, 4, 5]
+        >>> my_list
+        [1, 4, 2, 3, 5, -10]
+
+testing for negative numbers
