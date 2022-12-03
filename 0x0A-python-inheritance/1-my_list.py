@@ -15,4 +15,3 @@ class MyList(list):
 
     def print_sorted(self):
         print(sorted(self, reverse=False))
-        return self
