@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/python3
 '''
 function that returns available attributes
 and methods of an object.
