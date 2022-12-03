@@ -35,6 +35,10 @@ Importing module that assumes that it's an integer and append list
         >>> print(my_list)
         [1, 4, 2, 3, 5]
 
+        >>> my_list = []
+        >>> my_list
+        []
+
 Adding items to a list
 
 ::
@@ -59,14 +63,6 @@ Printing the list in a sorted manner
 Reprinting the list in a none sorted format
 
 ::
-
-        >>> my_list = []
-        >>> my_list
-        []
-
-Printing an empty list only
-
-::
         >>> my_list = [1, 4, 2, 3, 5]
         >>> my_list.append(-10)
         >>> my_list
@@ -76,4 +72,4 @@ Printing an empty list only
         >>> my_list
         [1, 4, 2, 3, 5, -10]
 
-testing for negative numbers
+Testing for negative numbers
